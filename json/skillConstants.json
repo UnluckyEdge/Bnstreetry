@@ -30,7 +30,7 @@
         "hmSecretHong2su" : "역왕비급 2편", 
         "hmSecretTechnique" : "{$skillName} 홍문비전"
     },
-	    "ru" : {
+	"ru" : {
         "hmSecretJiwan1" : "Hongmoon Secret Technique - {$skillName}", 
         "hmSecretJiwan2" : "Hongmoon Secret Technique - {$skillName}", 
         "hmSecretIksanun1" : "Hongmoon Secret Technique - {$skillName}", 
