@@ -61,6 +61,37 @@
         "mod" : "변경", 
         "scale" : "공격력 {$scale}x", 
         "petScale" : "소환수 공격력 {$scale}x"
+    },
+	"ru" : {
+        "focusRegen" : "Восстановливление Чи:", 
+        "focusCost" : "Расход Чи", 
+        "healthCost" : "Health Cost", 
+        "zeroRange" : "На персонажа", 
+        "zeroArea" : "Цель", 
+        "zeroTime" : "Мгновенно", 
+        "range" : "Дистанция", 
+        "area" : "Зона поражения", 
+        "cast" : "Время каста", 
+        "cooldown" : "Кд", 
+        "timeUnit" : " сек", 
+        "timeUnit2" : " мин", 
+        "stanceChange" : "Смена стойки", 
+        "conditions" : "Условия использования", 
+        "c1" : "Usage Requirements", 
+        "c2" : "Selective usage requirements", 
+        "c2info" : "One of the following conditions required", 
+        "unlock" : "Легендарный скилл", 
+        "achievement" : "Ачивка", 
+        "book" : "Skill Book", 
+        "unreleased" : "Unreleased", 
+        "unreleasedQuote" : "It is said that this Hongmoon technique is only found in legends.", 
+        "basic" : "Base", 
+        "stage" : "Stage {&stage}", 
+        "type" : "Ветка {$type}", 
+        "add" : "Add", 
+        "mod" : "Mod", 
+        "scale" : "{$scale}x AP", 
+        "petScale" : "{$scale}x AP помощника"
     }
 }
 { 
@@ -118,6 +149,33 @@
             "Passive" : "지속효과", 
             "None" : "없음"
         }
+    },
+	 "ru" : {
+        "level" : "Лвл {$level}", 
+        "tierStage" : "Tier{&tier} Stage{&stage}", 
+        "reqLevel" : "Рекомендуемый уровень", 
+        "hotkeys" : {
+            "LB" : "LMB", 
+            "RB" : "RMB", 
+            "F" : "F", 
+            "Tab" : "Tab", 
+            "1" : "1", 
+            "2" : "2", 
+            "3" : "3", 
+            "4" : "4", 
+            "Z" : "Z", 
+            "X" : "X", 
+            "C" : "C", 
+            "V" : "V", 
+            "G" : "G", 
+            "B" : "B", 
+            "Q" : "Q", 
+            "E" : "E", 
+            "S" : "S", 
+            "Familiar" : "Помощник", 
+            "Passive" : "Пассивный", 
+            "None" : "Нет"
+        }
     }
 }
 { 
@@ -127,6 +185,9 @@
     }, 
     "ko" : {
         "patchHeader" : "현재 패치"
+    },
+	"ru" : {
+        "patchHeader" : "Текущий патч"
     }
 }
 { 
@@ -147,6 +208,15 @@
         "character" : "캐릭터 검색", 
         "stats" : "통계", 
         "login" : "로그인", 
+        "v5demo" : "V5 Demo"
+    },
+	"ru" : {
+        "krSkills" : "KR Скиллы", 
+        "trees" : "Skill Trees", 
+        "soulshield" : "Бопае", 
+        "character" : "Поиск персонажей", 
+        "stats" : "Статы", 
+        "login" : "Логин", 
         "v5demo" : "V5 Demo"
     }
 }
@@ -175,6 +245,18 @@
         "newTab" : "새 탭", 
         "reset" : "초기화", 
         "cancel" : "취소"
+    },
+	"ru" : {
+        "search" : "Поиск", 
+        "trainable" : "Show trainable skills only", 
+        "defaultBuild" : "Билд", 
+        "defaultTab" : "Вкладка", 
+        "rename" : "Имя", 
+        "resetHeader" : "Сброс билда", 
+        "resetInfo" : "Сбросить билд в этой вкладке?", 
+        "newTab" : "Новая вкладка", 
+        "reset" : "Сброс", 
+        "cancel" : "Отмена"
     }
 }
 { 
@@ -200,6 +282,17 @@
         "BD" : "린검사", 
         "WL" : "주술사", 
         "SF" : "기권사"
+    },
+	"ru" : {
+        "BM" : "Blade Master", 
+        "KF" : "Kung Fu Master", 
+        "DE" : "Destroyer", 
+        "FM" : "Force Master", 
+        "AS" : "Assassin", 
+        "SU" : "Summoner", 
+        "BD" : "Blade Dancer", 
+        "WL" : "Warlock", 
+        "SF" : "Soul Fighter"
     }
 }
 { 
@@ -225,6 +318,18 @@
         "newTab" : "새 탭", 
         "reset" : "초기화", 
         "cancel" : "취소"
+    },
+	"ru" : {
+		"search" : "Поиск", 
+        "trainable" : "Show trainable skills only", 
+        "defaultBuild" : "Билд", 
+        "defaultTab" : "Вкладка", 
+        "rename" : "Имя", 
+        "resetHeader" : "Сброс билда", 
+        "resetInfo" : "Сбросить билд в этой вкладке?", 
+        "newTab" : "Новая вкладка", 
+        "reset" : "Сброс", 
+        "cancel" : "Отмена"
     }
 }
 { 
@@ -242,6 +347,13 @@
         "usedPoints" : "사용점수", 
         "use2Points" : "2 포인트 필요", 
         "noTree" : "{&skillName}은(는) 수련 트리가 없습니다"
+    },
+	"ru" : {
+        "tier" : "Тир{&tier}", 
+        "stage" : "Стадия{&stage}", 
+        "usedPoints" : "Использовано очков", 
+        "use2Points" : "Необходимо 2 очка", 
+        "noTree" : "{&skillName} does not have a tree"
     }
 }
 { 
@@ -301,6 +413,34 @@
         "post" : "확인", 
         "posted" : "등록 성공", 
         "weaponConstantInfo" : "무기 상수는 스킬의 피해량 폭을 설정한다. 무기 상수 = 스킬의 최대 피해량 / 스킬 계수 - 공격력"
+    },
+	"ru" : {
+        "level" : "Уровень", 
+        "hLevel" : "Легендарный уровень", 
+        "levelWarning" : "If the new levels does not have enough skill points to support the current build, the current build will be reset.", 
+        "star" : "", 
+        "pointsUsed" : "used", 
+        "advanced" : "Stats", 
+        "ap" : "Attack Power", 
+        "ad" : "Additional Damage", 
+        "c" : "Weapon Constant", 
+        "elements" : "Элементалньый урон", 
+        "flame" : "Flame Damage", 
+        "frost" : "Frost Damage", 
+        "shadow" : "Shadow Damage", 
+        "lightning" : "Lightning Damage", 
+        "earth" : "Earth Damage", 
+        "wind" : "Wind Damage", 
+        "modeList" : "List", 
+        "modeIcon" : "Icon", 
+        "share" : "Share Build", 
+        "shareLink" : "Share Link", 
+        "postOn" : "Post on BnSTree", 
+        "title" : "Title", 
+        "titleError" : "Enter a title", 
+        "post" : "Post", 
+        "posted" : "Posted", 
+        "weaponConstantInfo" : "Weapon constant determines the damage range of a skill. Weapon constant = max damage of any skill / skill multiplier - attack power"
     }
 }
 { 
@@ -312,6 +452,10 @@
     "ko" : {
         "header" : "수련 게시판", 
         "success" : "수련 적용 완료"
+    },
+	"ru" : {
+        "header" : "Builds", 
+        "success" : "Build applied"
     }
 }
 { 
@@ -337,6 +481,17 @@
         "BD" : "린검사", 
         "WL" : "주술사", 
         "SF" : "기권사"
+    },
+	"ru" : {
+        "BM" : "Blade Master", 
+        "KF" : "Kung Fu Master", 
+        "DE" : "Destroyer", 
+        "FM" : "Force Master", 
+        "AS" : "Assassin", 
+        "SU" : "Summoner", 
+        "BD" : "Blade Dancer", 
+        "WL" : "Warlock", 
+        "SF" : "Soul Fighter"
     }
 }
 { 
@@ -398,6 +553,34 @@
         "post" : "확인", 
         "posted" : "등록 성공", 
         "weaponConstantInfo" : "무기 상수는 스킬의 피해량 폭을 설정한다. 무기 상수 = (아무 스킬의 최대 피해량 - 최소 피해량) / (공격력 * 2)"
+    },
+	"ru" : {
+        "level" : "Уровень", 
+        "hLevel" : "Легендарный уровень", 
+        "levelWarning" : "If the new levels does not have enough skill points to support the current build, the current build will be reset.", 
+        "star" : "", 
+        "pointsUsed" : "used", 
+        "advanced" : "Stats", 
+        "ap" : "Attack Power", 
+        "ad" : "Additional Damage", 
+        "c" : "Weapon Constant", 
+        "elements" : "Элементалньый урон", 
+        "flame" : "Flame Damage", 
+        "frost" : "Frost Damage", 
+        "shadow" : "Shadow Damage", 
+        "lightning" : "Lightning Damage", 
+        "earth" : "Earth Damage", 
+        "wind" : "Wind Damage", 
+        "modeList" : "List", 
+        "modeIcon" : "Icon", 
+        "share" : "Share Build", 
+        "shareLink" : "Share Link", 
+        "postOn" : "Post on BnSTree", 
+        "title" : "Title", 
+        "titleError" : "Enter a title", 
+        "post" : "Post", 
+        "posted" : "Posted", 
+        "weaponConstantInfo" : "Weapon constant determines the damage range of a skill. Weapon constant = max damage of any skill / skill multiplier - attack power"
     }
 }
 { 
@@ -419,6 +602,15 @@
         "sort" : "정렬", 
         "hotkey" : "입력키", 
         "level" : "레벨"
+    },
+	"ru" : {
+        "search" : "Поиск", 
+        "trainable" : "Отобразить изменяемые скиллы", 
+        "changeElement" : "Заменить на {$element}", 
+        "filters" : "Фильтры", 
+        "sort" : "Сортировка", 
+        "hotkey" : "Клавиши", 
+        "level" : "Уровень"
     }
 }
 { 
@@ -432,6 +624,11 @@
         "title" : "보패 조합기", 
         "share" : "공유", 
         "shareLink" : "공유링크"
+    },
+	"ru" : {
+        "title" : "Soul Shield Mixer", 
+        "share" : "Поделиться", 
+        "shareLink" : "Share Link"
     }
 }
 { 
@@ -443,6 +640,10 @@
     "ko" : {
         "defaultTab" : "탭", 
         "newTab" : "새 탭"
+    },
+	"ru" : {
+        "defaultTab" : "Вкладка", 
+        "newTab" : "Новая вкладка"
     }
 }
 { 
@@ -468,6 +669,17 @@
         "bt" : "촉마보패", 
         "ww" : "용오름보패", 
         "vt" : "흑풍"
+    },
+	"ru" : {
+        "error" : "You cannot equip pieces belonging to a different class. Unequip current class specific pieces first.", 
+        "search" : "Поиск", 
+        "class" : "Класс", 
+        "sets" : "Легендарные бопае", 
+        "all" : "Все", 
+        "msp" : "Sacred Longgui", 
+        "bt" : "Raven", 
+        "ww" : "Whirlwind", 
+        "vt" : "Black Wind"
     }
 }
 { 
@@ -543,6 +755,42 @@
         "totalStats" : "보패 효과 (기본 + 합성 + 세트)", 
         "fusion" : "합성", 
         "none" : "없음"
+    },
+	"ru" : {
+        "soulshield" : "Бопае", 
+        "equipped" : "Equipped", 
+        "max" : "Max", 
+        "subLimit" : "+ {$limit} random sub option{?limit; value > 1; s}", 
+        "maxFuse" : "Max Fusion", 
+        "setEffect" : "Set Effect", 
+        "levelReq" : "Requires level {$level}", 
+        "classRestriction" : "{$className} only", 
+        "bind" : "Bind on pickup", 
+        "acquire" : "Acquired from", 
+        "ap" : "Attack Power", 
+        "eap" : "Anti-Charm Attack Power", 
+        "health" : "Health", 
+        "critical" : "Critical", 
+        "criticalDamage" : "Critical Damage", 
+        "statusDamage" : "Status Damage", 
+        "accuracy" : "Accuracy", 
+        "piercing" : "Piercing", 
+        "defense" : "Defense", 
+        "criticalDefense" : "Critical Defense", 
+        "block" : "Block", 
+        "evasion" : "Evasion", 
+        "p1" : "Gam", 
+        "p2" : "Gan", 
+        "p3" : "Jin", 
+        "p4" : "Son", 
+        "p5" : "Lee", 
+        "p6" : "Gon", 
+        "p7" : "Tae", 
+        "p8" : "Kun", 
+        "statControl" : "Stat Control", 
+        "totalStats" : "Total Stats (base + set + fusion)", 
+        "fusion" : "Fusion", 
+        "none" : "None"
     }
 }
 { 
@@ -558,6 +806,12 @@
         "shareLink" : "공유링크", 
         "characterSearch" : "캐릭터 검색", 
         "like" : "좋아요"
+    },
+	"ru" : {
+        "share" : "Поделиться", 
+        "shareLink" : "Ссылка", 
+        "characterSearch" : "Поиск персонажей", 
+        "like" : "Лайк"
     }
 }
 { 
@@ -593,6 +847,22 @@
         "Warlock" : "WL", 
         "Soul Fighter" : "SF", 
         "noCharacter" : "캐릭터 정보가 존재하지 않습니다"
+    },
+	"ru" : {
+        "level" : "Уровень", 
+        "hLevel" : "HM Уровень", 
+        "hLevelSuffix" : "", 
+        "noImage" : "Нет изображения", 
+        "Blade Master" : "BM", 
+        "Kung Fu Master" : "KF", 
+        "Destroyer" : "DE", 
+        "Force Master" : "FM", 
+        "Assassin" : "AS", 
+        "Summoner" : "SU", 
+        "Blade Dancer" : "BD", 
+        "Warlock" : "WL", 
+        "Soul Fighter" : "SF", 
+        "noCharacter" : "Персонаж не найден"
     }
 }
 { 
@@ -730,6 +1000,73 @@
         "additionalEffects" : "추가효과", 
         "attack50Effect" : "저항 시 공격력 5초간 100 증가", 
         "defense50Effect" : "저항 시 생명력 6% 회복, 재발동 제한시간 6초"
+    },
+	"ru" : {
+        "attackPoints" : "Очки атаки", 
+        "defensePoints" : "Очки защиты", 
+        "Attack Power" : "Сила атаки", 
+        "PvP Attack Power" : "PvP Атака", 
+        "Evolved Attack Power" : "Anti-Charm Attack Power", 
+        "Piercing" : "Пробивание", 
+        "Accuracy" : "Точность", 
+        "Concentration" : "Концентрация", 
+        "Critical Hit" : "Крит шанс", 
+        "Critical Dmg" : "Крит дамаг", 
+        "Mastery" : "Mastery", 
+        "Additional Dmg" : "Additional Dmg.", 
+        "Threat" : "Агро", 
+        "Flame Dmg" : "Flame Dmg.", 
+        "Frost Dmg" : "Frost Dmg.", 
+        "Wind Dmg" : "Wind Dmg.", 
+        "Earth Dmg" : "Earth Dmg.", 
+        "Lightning Dmg" : "Lightning Dmg.", 
+        "Shadow Dmg" : "Shadow Dmg.", 
+        "Status Dmg" : "Status Dmg.", 
+        "HP" : "Health", 
+        "Def" : "Защита", 
+        "Evolved Def" : "Evolved Def.", 
+        "Evasion" : "Evasion", 
+        "Block" : "Block", 
+        "Critical Def" : "Critical Def.", 
+        "Willpower" : "Willpower", 
+        "Dmg Reduction" : "Dmg. Reduction", 
+        "Health Regen" : "Health Regen", 
+        "Recovery" : "Recovery", 
+        "Debuff Def" : "Debuff Def.", 
+        "Base" : "Base", 
+        "Equipment" : "Equipment", 
+        "Def Piercing" : "Def. Piercing", 
+        "Block Piercing" : "Block Piercing", 
+        "Hit Rate" : "Hit Rate", 
+        "Counter Piercing" : "Counter Piercing", 
+        "Critical Rate" : "Critical Rate", 
+        "Dmg Bonus" : "Dmg. Bonus", 
+        "Threat Bonus" : "Threat Bonus", 
+        "Flame Dmg Rate" : "Flame Dmg. Bonus", 
+        "Frost Dmg Rate" : "Frost Dmg. Bonus", 
+        "Wind Dmg Rate" : "Wind Dmg. Bonus", 
+        "Earth Dmg Rate" : "Earth Dmg. Bonus", 
+        "Lightning Dmg Rate" : "Lightning Dmg. Bonus", 
+        "Shadow Dmg Rate" : "Shadow Dmg. Bonus", 
+        "Status Dmg Rate" : "Status Dmg. Bonus", 
+        "AoE Def" : "AoE Def.", 
+        "AoE Def Rate" : "AoE Def. Rate", 
+        "Evolved Def Rate" : "Evolved Def. Rate", 
+        "Evasion Rate" : "Evasion Rate", 
+        "Improve Counter by" : "Counter Enhancement", 
+        "Improve Block by" : "Block Enhancement", 
+        "Block Rate" : "Block Rate", 
+        "Critical Def Rate" : "Critical Def. Rate", 
+        "Out of Combat" : "Out of Combat", 
+        "In Combat" : "In Combat", 
+        "Recovery Rate" : "Recovery", 
+        "Recovery Bonus" : "Additional Recovery", 
+        "Recovery Chance" : "Healing Bonus", 
+        "Debuff Def Bonus" : "Debuff Def. Bonus", 
+        "elementDamage" : "Element Dmg.", 
+        "additionalEffects" : "Additional Effects", 
+        "attack50Effect" : "Increases attack power by 100 for 5 sec on resist", 
+        "defense50Effect" : "Heals the user 6% of their health on resist, 6 sec cooldown"
     }
 }
 { 
@@ -773,5 +1110,25 @@
         "ssEffectsShow" : "보패 효과 보기", 
         "ssEffects" : "보패효과", 
         "ssDistribution" : "(기본 + 합성 + 세트)"
+    },
+	"ru" : {
+        "weapon" : "Оружие", 
+        "ring" : "Кольцо", 
+        "earring" : "Серьга", 
+        "necklace" : "Ожерелье", 
+        "bracelet" : "Браслет", 
+        "belt" : "Пояс", 
+        "gloves" : "Перчатка", 
+        "soul" : "Соул", 
+        "guard" : "Питомец", 
+        "singongpae" : "Соул бадж", 
+        "bigongpae" : "мистик бадж", 
+        "clothes" : "Clothes", 
+        "clothesDecoration" : "Adornment", 
+        "tire" : "Head Accessory", 
+        "faceDecoration" : "Face Accessory", 
+        "ssEffectsShow" : "Показать статы бопае", 
+        "ssEffects" : "Статы бопае", 
+        "ssDistribution" : "(Базовые + Точка + Бонус сета)"
     }
 }
