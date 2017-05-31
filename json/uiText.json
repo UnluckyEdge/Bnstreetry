@@ -737,7 +737,7 @@
         "bind" : "", 
         "acquire" : "Как получить", 
         "ap" : "Сила атаки", 
-        "eap" : "Anti-Charm Attack Power", 
+        "eap" : "Boss Attack Power", 
         "health" : "HP", 
         "critical" : "Крит", 
         "criticalDamage" : "Крит урон", 
