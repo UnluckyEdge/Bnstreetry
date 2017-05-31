@@ -141,7 +141,8 @@
         "blindDeaf" : "Blindness, Deafness", 
         "bind" : "Bind", 
         "bleed" : "Кровоток", 
-        "repression" : "Repression"
+        "repression" : "Repression", 
+        "ironPlating" : "Iron Plating"
     }
 },
 { 
