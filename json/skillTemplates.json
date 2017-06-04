@@ -131,7 +131,8 @@
     "_id" : "TEMPLATE_CAST_SPEED_INCREASED", 
     "template" : {
         "en" : "Cast speed increased {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}", 
-        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} 연사 속도 상승"
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#condition=CLAUSE_CONDITION_ON} 연사 속도 상승",
+        "ru" : "Скорость применения увеличена {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_ACTIVE}"
     }
 },
 { 
@@ -159,7 +160,8 @@
     "_id" : "CLAUSE_TO_DEFENSE_BREAK", 
     "template" : {
         "en" : "to enemies whose defense was broken by {$skill}", 
-        "ko" : "{$skill}로 방어 해제된 적에게"
+        "ko" : "{$skill}로 방어 해제된 적에게",
+        "ru" : "при пробитии защиты навыком {$skill}"
     }
 },
 { 
@@ -180,7 +182,8 @@
     "_id" : "TEMPLATE_NO_JOINT_ATTACK", 
     "template" : {
         "en" : "Cannot be used as a joint attack", 
-        "ko" : "합격불가"
+        "ko" : "합격불가",
+        "ru" : "Нельзя использовать как групповой контроль"
     }
 },
 { 
@@ -209,7 +212,7 @@
     "template" : {
         "en" : "{&area=Creates a damaging field that} {&additionalCast=Additional cast} {$skill} deals {$damage} {&additional=additional} {$elementType} damage {#hit=CLAUSE_HIT_OVER} {#time=CLAUSE_TIME_OVER} {#timeAfter=CLAUSE_TIME_AFTER} {#enemies=CLAUSE_ENEMIES_UP_TO} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#buff=CLAUSE_BUFF_ACTIVE}", 
         "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {&area=영역 내 대상} {&additionalCast=추가 시전 시} {$skill} {#enemies=CLAUSE_ENEMIES_UP_TO} {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {#hit=CLAUSE_HIT_OVER} {#timeAfter=CLAUSE_TIME_AFTER} {#time=CLAUSE_TIME_OVER} {$damage}의 {&additional=추가} {$elementType}피해",
-        "ru" : "{&area=Creates a damaging field that} {&additionalCast=Additional cast} {$skill} наносит {$damage} {&additional=дополнительный} {$elementType} урона {#hit=CLAUSE_HIT_OVER} {#time=CLAUSE_TIME_OVER} {#timeAfter=CLAUSE_TIME_AFTER} {#enemies=CLAUSE_ENEMIES_UP_TO} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#buff=CLAUSE_BUFF_ACTIVE}"
+        "ru" : "{&area=Creates a damaging field that} {&additionalCast=Additional cast} {$skill} наносит {$damage} {&additional=дополнительного} {$elementType}{?elementType; value; яного} урона {#hit=CLAUSE_HIT_OVER} {#time=CLAUSE_TIME_OVER} {#timeAfter=CLAUSE_TIME_AFTER} {#enemies=CLAUSE_ENEMIES_UP_TO} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#buff=CLAUSE_BUFF_ACTIVE}"
     }
 },
 { 
@@ -224,7 +227,7 @@
     "template" : {
         "en" : "with {$skill}", 
         "ko" : "{$skill}(으)로",
-        "ru" : "успехе {$skill}"
+        "ru" : "навыком {$skill}"
     }
 },
 { 
@@ -275,7 +278,8 @@
     "_id" : "TEMPLATE_FAMILIAR_HEAL", 
     "template" : {
         "en" : "Heals the familiar {&withinArea=within the area} {$percent}% of its health {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}", 
-        "ko" : "{#condition=CLAUSE_CONDITION_ON} {&withinArea=영역 내} 소환수 {#time=CLAUSE_TIME_OVER} 생명력 {$percent}% 회복"
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {&withinArea=영역 내} 소환수 {#time=CLAUSE_TIME_OVER} 생명력 {$percent}% 회복",
+        "ru" : "Восстанавливает помощнику {&withinArea=в области действия} {$percent}% хп {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}"
     }
 },
 { 
@@ -289,14 +293,16 @@
     "_id" : "TEMPLATE_GUARANTEED_CRIT", 
     "template" : {
         "en" : "{&nextSkill=Next skill has} {$skill} {&skill=has} guaranteed critical hit {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {&duringUse=during use} {#buff=CLAUSE_BUFF_ACTIVE}", 
-        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {&duringUse=사용 중} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {&nextSkill=다음 무공} {$skill} 확정 치명타"
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {&duringUse=사용 중} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {&nextSkill=다음 무공} {$skill} 확정 치명타",
+        "ru" : "{&nextSkill=Следующий навык} {$skill} {&skill=имеет} гарантированный крит {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {&duringUse=при использовании} {#buff=CLAUSE_BUFF_ACTIVE}"
     }
 },
 { 
     "_id" : "TEMPLATE_FAMILIAR_AUTO", 
     "template" : {
         "en" : "Automatically used by the familiar {#status=CLAUSE_TO_STATUS}", 
-        "ko" : "{#status=CLAUSE_TO_STATUS} 소환수가 자동으로 사용"
+        "ko" : "{#status=CLAUSE_TO_STATUS} 소환수가 자동으로 사용",
+        "ru" : "Используется помощником автоматически {#status=CLAUSE_TO_STATUS}"
     }
 },
 { 
@@ -362,7 +368,8 @@
     "_id" : "TEMPLATE_END_AIRBORNE", 
     "template" : {
         "en" : "Ends the enemy's airborne status", 
-        "ko" : "적 공중 상태 해제"
+        "ko" : "적 공중 상태 해제",
+        "ru" : "Завершает подбрасывание"
     }
 },
 { 
@@ -390,7 +397,8 @@
     "_id" : "TEMPLATE_FAMILIAR_STANDBY", 
     "template" : {
         "en" : "Recalled familiar will await for the user's next action", 
-        "ko" : "돌아온 소환수는 주술사의 다음 공격 행동을 기다림"
+        "ko" : "돌아온 소환수는 주술사의 다음 공격 행동을 기다림",
+        "ru" : "После возвращения помощник ожидает следующей команды"
     }
 },
 { 
@@ -549,7 +557,8 @@
     "_id" : "TEMPLATE_CD_IGNORE", 
     "template" : {
         "en" : "Ignores cooldown {#buff=CLAUSE_BUFF_ACTIVE} {&stance=when used in} {$stance}", 
-        "ko" : "{$stance} {&stance=중} {#buff=CLAUSE_BUFF_ACTIVE} 재사용 시간 시간 없이 사용 가능"
+        "ko" : "{$stance} {&stance=중} {#buff=CLAUSE_BUFF_ACTIVE} 재사용 시간 시간 없이 사용 가능",
+        "ru" : "Применяется без кд {#buff=CLAUSE_BUFF_ACTIVE} {&stance=при использовании} {$stance}"
     }
 },
 { 
@@ -634,7 +643,7 @@
     "template" : {
         "en" : "Creates a {$skill} field that lasts for {#time=CLAUSE_TIME}", 
         "ko" : "{#time=CLAUSE_TIME} {$skill} 영역 생성",
-        "ru" : "Создает область, где откатываются навыки в течении {#time=CLAUSE_TIME}"
+        "ru" : "Создает область {$skill} на {#time=CLAUSE_TIME}"
     }
 },
 { 
@@ -684,7 +693,7 @@
     "template" : {
         "en" : "Familiar resists status effects {&duringUse=during use} {#time=CLAUSE_TIME_DURATION}", 
         "ko" : "{&duringUse=사용 중} 소환수 {#time=CLAUSE_TIME_DURATION} 상태이상 저항",
-        "ru" : "Помощник имеет имун к эффектам контроля {&duringUse=во время использования} {#time=CLAUSE_TIME_DURATION}"
+        "ru" : "Помощник имеет сопротивление к эффектам контроля {&duringUse=во время использования} {#time=CLAUSE_TIME_DURATION}"
     }
 },
 { 
@@ -698,7 +707,8 @@
     "_id" : "TEMPLATE_CD_EXCEPTION", 
     "template" : {
         "en" : "Does not inflict {$status} while the cooldown is active", 
-        "ko" : "재사용 시간 동안 {$status} 효과 제외"
+        "ko" : "재사용 시간 동안 {$status} 효과 제외",
+        "ru" : "Не накладывает {$status} пока навык перезаряжается"
     }
 },
 { 
@@ -728,7 +738,7 @@
     "template" : {
         "en" : "{&maxSpeed=Max speed} {&instant=Instant cast} {$skill} available {#time=CLAUSE_TIME} {&afterUse=after use} {&duringUse=during use} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#skillAfter=CLAUSE_SKILL_AFTER} {#buff=CLAUSE_BUFF_ACTIVE}", 
         "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {#skillAfter=CLAUSE_SKILL_AFTER} {#status=CLAUSE_TO_STATUS} {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME} {&duringUse=사용 중} {&afterUse=사용 후} {&maxSpeed=최대 가속} {&instant=즉시 시전} {$skill} 사용 가능",
-        "ru" : "{&maxSpeed=Максимальная скорость} {&instant=Мгновенное использование} {$skill} доступно {#time=CLAUSE_TIME} {&afterUse=после использования} {&duringUse=во время исвпользованя}} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#skillAfter=CLAUSE_SKILL_AFTER} {#buff=CLAUSE_BUFF_ACTIVE}"
+        "ru" : "{&maxSpeed=Максимальная скорость} {&instant=Мгновенное использование} {$skill} доступно {#time=CLAUSE_TIME} {&afterUse=после использования} {&duringUse=во время использованя}} {#condition=CLAUSE_CONDITION_ON} {#status=CLAUSE_TO_STATUS} {#skillAfter=CLAUSE_SKILL_AFTER} {#buff=CLAUSE_BUFF_ACTIVE}"
     }
 },
 { 
@@ -764,7 +774,8 @@
     "_id" : "TEMPLATE_FAMILIAR_SWITCH", 
     "template" : {
         "en" : "Switch position with the familiar", 
-        "ko" : "소환수랑 위치를 변환"
+        "ko" : "소환수랑 위치를 변환",
+        "ru" : "Меняется местами с помощником"
     }
 },
 { 
@@ -976,7 +987,8 @@
     "_id" : "TEMPLATE_REMOVE_STATUS", 
     "template" : {
         "en" : "Removes {$status} {&all=all status effects} {&multi=multiple times} {&duringUse=during use} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_RECEIVE} {&party=from party members} {&familiar=from the familiar}", 
-        "ko" : "{#buff=CLAUSE_BUFF_RECEIVE} {#condition=CLAUSE_CONDITION_ON} {&duringUse=사용 중} {&party=소환수의} {&party=파티원의} {$status} {&all=모든 상태이상} {&multi=연속} 해제"
+        "ko" : "{#buff=CLAUSE_BUFF_RECEIVE} {#condition=CLAUSE_CONDITION_ON} {&duringUse=사용 중} {&party=소환수의} {&party=파티원의} {$status} {&all=모든 상태이상} {&multi=연속} 해제",
+        "ru" : "Отменяет {$status} {&all=все негативные эффекты} {&multi=multiple times} {&duringUse=при использовании} {#condition=CLAUSE_CONDITION_ON} {#buff=CLAUSE_BUFF_RECEIVE} {&party=всем членам пати} {&familiar=помощнику}"
     }
 },
 { 
@@ -1201,7 +1213,8 @@
     "_id" : "TEMPLATE_CANNOT_USE_HEALTH_LOW", 
     "template" : {
         "en" : "Cannot be used when the {?familiar; value; familiar; user}'s current health is below {$percent}%", 
-        "ko" : "{&familiar=소환수} 생명력 {$percent}% 이하 시 사용 불가"
+        "ko" : "{&familiar=소환수} 생명력 {$percent}% 이하 시 사용 불가",
+        "ru" : "Cannot be used when the {?familiar; value; familiar; user}'s current health is below {$percent}%"
     }
 },
 { 
@@ -1480,7 +1493,8 @@
     "_id" : "TEMPLATE_AREA_ATTACK", 
     "template" : {
         "en" : "{$skill} deals damage in {$value}m radius {#buff=CLAUSE_BUFF_ACTIVE}", 
-        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {$skill} 사용자 중심 {$value}m 피해 적용"
+        "ko" : "{#buff=CLAUSE_BUFF_ACTIVE} {$skill} 사용자 중심 {$value}m 피해 적용",
+        "ru" : "{$skill} наносит урон в радиусе {$value}м {#buff=CLAUSE_BUFF_ACTIVE}"
     }
 },
 { 
@@ -1732,7 +1746,8 @@
     "_id" : "TEMPLATE_SS", 
     "template" : {
         "en" : "Used by double tapping the [S] key", 
-        "ko" : "[S]키를 두번 눌러 사용"
+        "ko" : "[S]키를 두번 눌러 사용",
+        "ru" : "Используется при двойном нажатии клавиши [S]"
     }
 },
 { 
@@ -1747,7 +1762,8 @@
     "_id" : "TEMPLATE_SKILL_AUTO", 
     "template" : {
         "en" : "{$skill} automatically used {#condition=CLAUSE_CONDITION_ON}", 
-        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$skill} 시전"
+        "ko" : "{#condition=CLAUSE_CONDITION_ON} {$skill} 시전",
+        "ru" : "{$skill} автоматически используется {#condition=CLAUSE_CONDITION_ON}"
     }
 },
 { 
