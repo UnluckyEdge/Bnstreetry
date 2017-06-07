@@ -361,7 +361,7 @@
     "template" : {
         "en" : "{&limit=up to} {$times} time{?times; value > 1; s}", 
         "ko" : "{&limit=최대} {$times}회",
-        "ru" : "{&limit=up to} {$times} раз{?times; value > 1 < 5; а}",
+        "ru" : "{&limit=up to} {$times} раз{?times; value > 1 < 5; а}"
     }
 },
 { 
@@ -420,7 +420,7 @@
     "template" : {
         "en" : "User and party members {&withinArea=within the area} recover {$focus}% focus {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}", 
         "ko" : "{&withinArea=영역 내} 시전자 및 파티원 {#condition=CLAUSE_CONDITION_ON} {#time=CLAUSE_TIME_OVER} 내력 {$focus}% 회복",
-        "ru" : "При использовании {&withinArea=within the area} восстанавливает {$focus}% чи {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}", 
+        "ru" : "При использовании {&withinArea=within the area} восстанавливает {$focus}% чи {#time=CLAUSE_TIME_OVER} {#condition=CLAUSE_CONDITION_ON}"
     }
 },
 { 
@@ -1061,7 +1061,7 @@
     "template" : {
         "en" : "to enemies inflicted by {$status} {$skill}", 
         "ko" : "{$status} {$skill} 상태인 적에게",
-        "ru" : "по цели {?status; с эффектом;}{$status} {?skill; в состояниях;}{$skill}"
+        "ru" : "по цели {?status; value; с эффектом;}{$status} {?skill; value; в состояниях;}{$skill}"
     }
 },
 { 
@@ -1266,7 +1266,7 @@
     "template" : {
         "en" : "Escape from {$status}", 
         "ko" : "{$status} 상태 탈출",
-        "en" : "Отменяет {$status}"
+        "ru" : "Отменяет {$status}"
     }
 },
 { 
